@@ -1,7 +1,8 @@
 import { Suspense, lazy } from 'react';
+
 import { useRoutes } from 'react-router-dom';
 
-const MainLayout = lazy(() => import('shared/main-layout'));
+const MainLayout = lazy(() => import('shared/layouts/main-layout'));
 const NotFoundPage = lazy(() => import('pages/not-found'));
 const HomePage = lazy(() => import('pages/home'));
 

@@ -39,7 +39,8 @@
   "globals": {
     "React": "readonly",
     "ImportMeta": "readonly",
-    "JSX": "readonly"
+    "JSX": "readonly",
+    "globalThis": "readonly"
   },
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
